@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+notebook = "*"
+ipykernel = "*"
+pandas = "*"
+langchain = "*"
+nbstripout = "*"
+pip = "*"
+install = "*"
+python-dotenv = "*"
+google-api-python-client = "*"
+requests = "*"
+beautifulsoup4 = "*"
+undetected-chromedriver = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
